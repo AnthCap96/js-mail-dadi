@@ -34,8 +34,10 @@ console.log(computer_numb, user_numb);
 
 if (computer_numb === user_numb) {
     console.log("DRAW!🏳️")
+
 } else if (computer_numb < user_numb) {
     console.log("YOU WIN! 😄")
+    
 } else if(computer_numb > user_numb) {
     console.log("YOU LOSE! 😞")
 }
